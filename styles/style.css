@@ -91,21 +91,21 @@
   text-transform: uppercase;
 }
 
-.aligned__text {
+.aligned-text {
   margin-top: 14px;
   line-height: 1;
   letter-spacing: 30px;
 }
 
-.aligned__text-center {
+.aligned-text_center {
   text-align: center;
 } 
 
-.aligned__text-right {
+.aligned-text_right {
   text-align: right;
 }
 
-.letter__spacing-extended {
+.letter-spacing-extended {
   letter-spacing: 60px;
 }
 
@@ -185,23 +185,20 @@
 }
 
 .card_type_film {
-  z-index: 0;
   background-image: url(../images/card-lot-01.jpg);
 }
 
 .card_type_book {
-  z-index: 0;
   background-image: url(../images/card-lot-02.jpg);
 }
 
 .card_type_picture {
-  z-index: 0;
   background-image: url(../images/card-lot-03.jpg);
-  
 }
 
 .card {
   position: relative;
+  z-index: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
